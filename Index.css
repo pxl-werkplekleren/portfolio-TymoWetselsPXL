@@ -165,3 +165,17 @@ th{
 .kwadrant h4{
     color: var(--accent);
 }
+.xgrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 0.8rem;
+}
+.xitem{
+    color: var(--text);
+}
+
+.xitem h4{
+    color: var(--accent-2);
+}
+
