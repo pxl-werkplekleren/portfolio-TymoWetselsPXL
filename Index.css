@@ -131,4 +131,37 @@ th{
 .numbered li{
     margin-bottom: 0.6rem;
 }
+.timeline{
+    margin-top: 1rem;
+    display: grid;
+    gap: 1rem;
+}
 
+.event{
+    padding: 1rem 1.1rem;
+    border-radius: 14px;
+    background: var(--surface-dark);
+    border: 1px solid rgba(225,255,255,.08);
+}
+
+.event h3{
+    color: var(--accent-2);
+    margin-bottom: 0.6rem;
+}
+
+.kernkwadranten{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+    margin-top: 0.8rem;
+}
+
+.kwadrant{
+    padding: 1rem;
+    border-radius: 14px;
+    background: var(--surface-dark);
+    border: 1px solid rgba(225,255,255,.12);
+}
+.kwadrant h4{
+    color: var(--accent);
+}
